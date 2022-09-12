@@ -7,6 +7,7 @@
 body{
   background-color: #eee;
   padding: 0 16px;
+ 
 }
 
 header{
@@ -25,10 +26,34 @@ footer{
   position: absolute;
   text-align: center;
   bottom: 0;
-  width: 100%;
+  left: 50%;
+  translate: -50%;
   height: 2.5rem;
+  
 }
 
 footer p{
   color: #ccc;
+}
+
+.note{
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1{
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
