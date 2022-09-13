@@ -29,11 +29,13 @@ footer{
   left: 50%;
   translate: -50%;
   height: 2.5rem;
+
   
 }
 
 footer p{
   color: #ccc;
+  
 }
 
 .note{
@@ -56,4 +58,8 @@ footer p{
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.image-div{
+  margin: 16px;
 }
